@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Phase1</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="action_refresh" translatable="false">Refresh</string>
+
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="settings" >Settings</string>
+    <array name="entries" >
+        <item>Popular</item>
+
+        <item>Top Rated</item>
+
+        <item>Favourites</item>
+
+    </array>
+<array name="values">
+    <item>popular</item>
+    <item>top_rated</item>
+    <item>favourites</item>
+</array>
+</resources>

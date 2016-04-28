@@ -1,0 +1,23 @@
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="55dp"
+    tools:context="com.example.marina.phase1.MainActivityFragment"
+    tools:showIn="@layout/activity_main">
+
+   <GridView
+       android:id="@+id/imageGrid"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:verticalSpacing="0dp"
+       android:horizontalSpacing="0dp"
+       android:numColumns="2"
+       >
+
+   </GridView>
+
+
+</RelativeLayout>
