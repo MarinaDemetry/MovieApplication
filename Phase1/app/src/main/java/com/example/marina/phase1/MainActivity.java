@@ -20,8 +20,6 @@ public class MainActivity extends AppCompatActivity implements MovieInterface {
 
         setContentView(R.layout.activity_main);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
         FrameLayout detailLayout = (FrameLayout) findViewById(R.id.secondFrag);
 
         if ( detailLayout == null ){
