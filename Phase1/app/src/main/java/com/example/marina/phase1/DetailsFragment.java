@@ -63,6 +63,9 @@ public class DetailsFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        if (container != null) {
+            container.removeAllViews();
+        }
         View view = inflater.inflate(R.layout.details_fragment, container, false);
         TrailerTask asyncObj = new TrailerTask();
         ReviewTask asyncReview = new ReviewTask();
