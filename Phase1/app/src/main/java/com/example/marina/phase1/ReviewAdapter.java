@@ -33,11 +33,12 @@ public class ReviewAdapter extends ArrayAdapter<Reviews> {
 
 
     public void setR(List<Reviews> reviews_list) {
-        this.reviews.clear();
-        this.reviews.addAll(reviews_list);
-        notifyDataSetChanged();
+        if (reviews_list != null) {
+            this.reviews.clear();
+            this.reviews.addAll(reviews_list);
+            notifyDataSetChanged();
+        }
     }
-
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {

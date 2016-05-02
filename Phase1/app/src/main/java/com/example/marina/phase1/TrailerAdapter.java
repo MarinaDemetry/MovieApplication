@@ -38,10 +38,11 @@ public class TrailerAdapter extends ArrayAdapter<Trailer> {
     }
 
     public void setT(List<Trailer> trailer_list) {
+       if(trailer_list != null){
         this.trailers.clear();
         this.trailers.addAll(trailer_list);
         notifyDataSetChanged();
-    }
+    }}
 
 
     @Override

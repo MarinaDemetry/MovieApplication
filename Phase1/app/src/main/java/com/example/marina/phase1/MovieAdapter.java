@@ -31,11 +31,12 @@ public class MovieAdapter extends BaseAdapter {
     }
 
     public void setM(List<Movie> m) {
-      this.m.clear();
-      this.m. addAll(m) ;
-        notifyDataSetChanged();
-        //Log.d("hello", m.size()+ " ");
-
+      if(m!= null) {
+          this.m.clear();
+          this.m.addAll(m);
+          notifyDataSetChanged();
+          //Log.d("hello", m.size()+ " ");
+      }
 
     }
 
